@@ -1,0 +1,19 @@
+/* styles/globals.css */
+
+/* Basic resets */
+body,
+h1,
+p,
+div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Markdown preview styles */
+.markdown-preview {
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+}
+
+/* More styles can be added here as needed */

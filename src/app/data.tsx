@@ -1,6 +1,7 @@
 import React from 'react';
 import Dashboard from '../../components/dashboard/dashboard';
 import TopicSets from '../../components/topic-sets/topic-sets';
+import Ad from '../../components/ad/ad';
 
 export interface MenuItem {
   title: string;
@@ -26,6 +27,6 @@ export const menu: MenuItem[] = [
   },
   {
     title: 'Ad',
-    component: <Dashboard />,
+    component: <Ad />,
   },
 ];
